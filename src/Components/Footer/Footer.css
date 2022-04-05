@@ -1,0 +1,15 @@
+.footer{
+    padding: 30px;
+    margin-top: 25%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(244, 241, 247);
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+.footer p {
+    color: blueviolet;
+    font-weight: bold;
+}

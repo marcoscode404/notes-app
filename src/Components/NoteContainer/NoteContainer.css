@@ -3,13 +3,25 @@
 }
 
 .note-container h2 {
+  width: auto;
+  height: 100%;
   margin-bottom: 20px;
+  background-color: rgb(252, 244, 244);
+  padding: 0.5rem;
+  color: blueviolet;
+  border-radius: 0.3rem 0.5rem;
+}
+
+.note-container h3 {
+  color: blueviolet;
 }
 
 .note-container_notes {
   height: 90%;
+  padding: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   overflow-y: scroll;
+  background-color: rgb(252, 250, 247);
 }
